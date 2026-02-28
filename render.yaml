@@ -1,10 +1,10 @@
 services:
   - type: web
-<<<<<<< HEAD
+
     name: backend-api
-=======
+
     name: deal-aggregator-api
->>>>>>> 66d636ea6c279e9a31a3203205966fbf63a91ec8
+
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
